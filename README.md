@@ -5,6 +5,10 @@ This is a small JavaFX desktop application for real-time audio visualization (sp
 The application supports visualization and playback of .wav files, or it can directly visualize microphone input.
 <br>The audio is visually represented with a spectrogram. A spectrogram is a picture where the X coordinate of a pixel represents time, the Y coordinate represents a corresponding frequency and the color of the pixel is the amplitude of that frequency.
 
+## Implementation details
+### 1. Creating the color map
+Before any audio processing begins, a color map must be created. The map is used to choose the appropriate color for a pixel based on the amplitude of the frequency represented by the pixel.
+
 ## Sidenote
 This was a fun little project I had done in my spare time at the start of the 5th semester (start of the 3rd year of collage), influenced by studying audio processing for the course - Speech recognition at the Faculty of Computer Science in Belgrade.
 
