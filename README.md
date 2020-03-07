@@ -3,4 +3,4 @@ This is a small JavaFX desktop application for real-time audio visualization (sp
 
 ## Overview
 The application supports visualization and playback of .wav files, or it can directly visualize microphone input.
-<br>The visual representation is a histogram. Bars on the X axis represent frequencies ranging from 43Hz up to 22050Hz, the Y axis represents the magnitude (strength) of frequencies.
+<br>The audio is visually represented with a spectrogram. A spectrogram is a picture where the X coordinate of a pixel represents time and the Y coordinate represents a corresponding frequency and the color of the pixel is the amplitude of that frequency.
