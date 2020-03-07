@@ -15,6 +15,12 @@ The visualizer mimics the human auditory system which is logarithmic. This means
 ### 3. Reading raw audio data slices (from .wav file or microphone) and (if .wav) writing to output (speakers) - playing audio
 After creating the color map and Mel filter bank, audio processing can begin.
 
+### 4. Unpacking raw data into samples and applying the Hamming window function
+Because we are taking fixed slices of audio we use a window function to smooth out the transition between two slices. This helps emphasize the key characteristics of each time slice.
+
+### 5. Processing samples and drawing the Spectrogram
+FFT (Fast Fourier transform) decomposes the sequence of samples (sound wave) into components of different frequencies (base harmonics - elementary sound waves). Every sample sequence (time slice) represents a new column in the picture. Using the Mel filter bank we choose which components to use for each frequency band (each pixel - Y coordinate) in the current time slice (in the newest column - X). After choosing the appropriate components and calculating the amplitude for every frequency band (every pixel), the corresponding color is assigned to each pixel. The final next step is shifting all the pixels of the image to the left by 1 pixel and inserting the new column.
+
 ## Sidenote
 This was a fun little project I had done in my spare time at the start of the 5th semester (start of the 3rd year of collage), influenced by studying audio processing for the course - Speech recognition at the Faculty of Computer Science in Belgrade.
 
