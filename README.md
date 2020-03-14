@@ -17,6 +17,8 @@ Before audio processing begins, a color map must be created. The map is calculat
 ### 2. Calculating the Mel filter bank
 The visualizer mimics the human auditory system which is logarithmic. This means that as the frequencies get higher we can detect fewer changes in sound (We can detect far more differences at lower frequencies). That is why the Mel scale is used to select which frequencies will be shown in the visualizer and how their amplitudes are calculated.
 
+![Alt text](images/mel bank.png?raw=true "")
+
 ### 3. Reading raw audio data slices (from .wav file or microphone) and (if .wav) writing to output (speakers) - playing audio
 After creating the color map and Mel filter bank, audio processing can begin.
 
