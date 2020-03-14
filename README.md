@@ -8,7 +8,7 @@ The application supports visualization and playback of .wav files, or it can dir
 ![Alt text](images/player.png?raw=true "")
 ![Alt text](images/aphex.png?raw=true "")
 ![Alt text](images/mic.png?raw=true "")
-![Alt text](images/whistle.png?raw=true "")
+![Alt text](images/whistle.png?raw=true "whistle")
 
 ## Implementation details
 ### 1. Creating the color map
