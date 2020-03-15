@@ -1,4 +1,4 @@
-# RealTime-AudioVisualizer-Spectrogram
+# AudioVisualizer-RealTime-Spectrogram
 This is a small JavaFX desktop application for real-time audio visualization (spectrogram) built from scratch.
 
 ## Overview
