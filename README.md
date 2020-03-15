@@ -17,7 +17,7 @@ Before audio processing begins, a color map must be created. The map is created 
 ### 2. Calculating the Mel filter bank
 The visualizer mimics the human auditory system, which is logarithmic in its nature. This means that as the frequencies get higher we can detect fewer changes in sound. That is why the Mel scale is used to select which frequencies are shown in the visualizer and how their amplitudes are calculated. The Mel filter bank is an array of logarithmically spaced frequencies, the filters are triangular which means the first filter starts at index 0, has a center at index 1 and ends at index 2, the second filter starts at index 1, has a center at 2 and ends at 3 etc. Since the spectrogram image height is 128 pixels, 128 filters are needed -> there are 130 frequencies in the filter bank array.
 
-![Alt text](images/melbank.png?raw=true "")
+![Alt text](images/melbank.png?raw=true "10 filter example")
 
 ### 3. Reading raw audio data slices (from .wav file or microphone) and (if .wav) writing to output (speakers) - playing audio
 After creating the color map and Mel filter bank, audio processing can begin.
