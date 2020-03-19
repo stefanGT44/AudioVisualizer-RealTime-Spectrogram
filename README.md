@@ -32,7 +32,7 @@ FFT (Fast Fourier transform) decomposes the sequence of samples (sound wave) int
 This was a small side project I had done in my spare time at the start of the 5th semester (start of the 3rd year of college), influenced by studying audio processing for the course - Speech recognition at the Faculty of Computer Science in Belgrade.
 
 ## Download
-You can download the .jar files [here](downloads).<br>
+You can download the .jar files [here](downloads/AudioVisualizerSpectrogram.zip).<br>
 To run the AudioVisualizerSpectrogramPlayer.jar it must be within the same folder as the audioFiles folder.
 
 ## Contributors
