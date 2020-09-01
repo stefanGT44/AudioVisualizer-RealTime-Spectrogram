@@ -6,7 +6,7 @@ The application supports visualization and playback of .wav files or direct micr
 <br>The audio is visually represented with a spectrogram - a picture where the X coordinate of a pixel represents time, the Y coordinate represents a corresponding frequency and the pixel color is the amplitude of that frequency.
 
 ![Alt text](images/player.png?raw=true "Playing Vivaldi")
-![Alt text](images/aphex.png?raw=true "Aphex Twin Equation")
+![Alt text](images/aphex.png?raw=true "Aphex Twin Equation")<br>
 ![Alt text](images/mic.png?raw=true "Random talk")
 ![Alt text](images/whistle.png?raw=true "Whistling")
 
