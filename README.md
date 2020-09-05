@@ -29,7 +29,7 @@ Because we are taking fixed slices of audio, a window function is used to smooth
 FFT (Fast Fourier transform) decomposes the sequence of samples (sound wave) into components of different frequencies (base harmonics - elementary sound waves). Every sample sequence (time slice) represents a new column of pixels in the picture. Using the Mel filter bank we know which components to use for computing the amplitude of each frequency band (each pixel - Y coordinate) in the current time slice (in the newest column - X). Based on the computed amplitudes, the corresponding color is assigned to each pixel using the color map. The final step is shifting all pixels of the image to the left by 1 pixel and inserting the new column.
 
 ## Sidenote
-This was a small side project that I had done in my spare time at the start of the 5th semester (start of the 3rd year of college), influenced by studying audio processing for the course - Speech recognition at the Faculty of Computer Science in Belgrade.
+This was a small side project that I had done in my spare time at the start of the 5th semester, influenced by studying audio processing for the course - Speech recognition at the Faculty of Computer Science in Belgrade.
 
 ## Download
 You can download the .jar files [here](downloads/AudioVisualizerSpectrogram.zip).<br>
