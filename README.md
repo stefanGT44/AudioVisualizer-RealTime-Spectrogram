@@ -7,7 +7,7 @@ The application supports visualization and playback of .wav files or direct micr
 
 ![Alt text](images/player.png?raw=true "Playing Vivaldi")
 ![Alt text](images/aphex.png?raw=true "Aphex Twin Equation")<br>
-![Alt text](images/mic.png?raw=true "Random talk")
+![Alt text](images/mic.png?raw=true "Speech")
 ![Alt text](images/whistle.png?raw=true "Whistling")
 
 ## Implementation details
